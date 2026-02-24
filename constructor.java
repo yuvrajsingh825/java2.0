@@ -1,10 +1,10 @@
 public class constructor {
-    int data ;
-    public constructor(){
-        data = 105;
+    int x ;
+    public constructor(int x){
+        this.x = x;
     }
     public static void main(String[] args) {
-        constructor c = new constructor();
-        System.out.println(c.data);
+        constructor c = new constructor(100);
+        System.out.println(c.x);
     }
 }
